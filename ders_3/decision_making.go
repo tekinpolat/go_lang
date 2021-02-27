@@ -17,6 +17,7 @@ func main(){
 		if-else if .......
 	*/
 	var number2 float32 = 35.32
+	fmt.Printf("Number --> %f\n", number2)
 
 	if num := 9; num < 0 {
         fmt.Println(num, "is negative")
@@ -28,6 +29,7 @@ func main(){
 
 	{
 		var number3 int = 45
+		fmt.Printf("Number --> %d\n", number3)
 	}
 	// number3 scope alanının dışında
 	//fmt.Printf("Number --> %d\n", number3)
