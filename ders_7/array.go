@@ -70,6 +70,12 @@ func main(){
 	values = append(values, 43)
 	values = append(values, 35)
 	fmt.Println(values)
+
+	datas := [5]int{1:4, 3:21}
+	fmt.Printf("%v\n", datas)
+
+
+	
 }
 
 
