@@ -25,8 +25,8 @@ func main(){
 	//defer defFunc()
 	//panic("Not working!!")
 
-	//val := c()
-	//fmt.Println(val)
+	val := c()
+	fmt.Println(val)
 	ageControl(-23)
 	
 }
